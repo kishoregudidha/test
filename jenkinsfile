@@ -5,7 +5,7 @@ node('TEST NODE1') {
 }
    stage ('build the packages') {
       // mvn clean package
-	  sh 'mvn package'
+	  sh 'mvn clean package'
    } 
    
 }
