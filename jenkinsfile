@@ -1,4 +1,4 @@
-node('LABEL') {
+node('TEST NODE1') {
     stage('SCM') {
       // git clone
 	  git 'https://github.com/GitPracticeRepo/spring-petclinic.git'
